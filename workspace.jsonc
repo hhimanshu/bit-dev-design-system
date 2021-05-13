@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
+  "teambit.workspace/workspace": {
+    "name": "dev-design-system",
+    "icon": "https://static.bit.dev/bit-logo.svg",
+    "defaultDirectory": "{scope}/{name}",
+    "defaultScope": "hhimanshu"
+  },
+  "teambit.dependencies/dependency-resolver": {
+    "packageManager": "teambit.dependencies/pnpm",
+    "policy": {
+      "dependencies": {
+        "@testing-library/react": "11.2.6"
+      },
+      "peerDependencies": {
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+      }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
+    "strictPeerDependencies": true
+  },
+  "teambit.workspace/variants": {
+    "*": {
+      "teambit.react/react": {}
+    }
+  }
+}
