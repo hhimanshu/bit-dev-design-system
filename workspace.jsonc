@@ -4,7 +4,7 @@
     "name": "dev-design-system",
     "icon": "https://static.bit.dev/bit-logo.svg",
     "defaultDirectory": "{scope}/{name}",
-    "defaultScope": "hhimanshu"
+    "defaultScope": "devatwork.showcase"
   },
   "teambit.dependencies/dependency-resolver": {
     "packageManager": "teambit.dependencies/pnpm",

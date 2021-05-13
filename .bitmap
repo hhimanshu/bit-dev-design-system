@@ -2,14 +2,14 @@
 
 {
     "ui/button": {
-        "scope": "",
-        "version": "",
+        "scope": "devatwork.showcase",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "hhimanshu/ui/button"
     },
     "ui/card": {
-        "scope": "",
-        "version": "",
+        "scope": "devatwork.showcase",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "hhimanshu/ui/card"
     },

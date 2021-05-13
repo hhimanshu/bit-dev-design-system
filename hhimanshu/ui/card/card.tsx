@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from "@hhimanshu/ui.button"
+import { Button } from "@hhimanshu/devatwork.showcase.ui.button"
 
 export type CardProps = {
   /**

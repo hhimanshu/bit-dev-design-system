@@ -1,9 +1,0 @@
-{
-    "name": "ts",
-    "remotes": {},
-    "version": "1.0.79",
-    "lanes": {
-        "current": "master",
-        "tracking": []
-    }
-}
